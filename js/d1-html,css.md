@@ -46,15 +46,36 @@ flex
 ### 8. 实现元素隐藏
 display:none, visibility: hidden, opacity:0
 
-### 1. 如何实现元素水平居中
-### 1. 如何实现元素垂直居中
-### 1. Position
-### 1. 定位元素水平垂直居中
-### 1. 清除浮动
+### 9. 如何实现元素水平居中
+行内: text-align: center
+块级: margin: 0 auto; 父级justify-content: center; transform; table
+
+### 10. 如何实现元素垂直居中
+行内: line-height: 父容器的高度
+块级: 父级align-items: center; transform; table
+行内快: vertical-align: middle
+
+### 11. Position
+static
+relative
+absolute
+fixed
+sticky
+
+### 12. 定位元素水平垂直居中
+
+### 13. 清除浮动
+
 ### 1. css选择器有哪些，选择器的优先级
+
 ### 1. 各种布局优缺点
+
 ### 1. html5有哪些新特性、移除了那些元素？如何处理HTML5新标签的浏览器兼容问题？如何区分 HTML 和 HTML5？
+
 ### 1. 解释盒模型宽高值得计算方式，边界塌陷，负值作用，box-sizing概念？
+
 ### 1. 如何实现浏览器内多个标签页之间的通信?
+
 ### 1. 解释下浮动和它的工作原理？清除浮动的方法
+
 ### href和src的区别
