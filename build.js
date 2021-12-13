@@ -31,7 +31,7 @@ function creatIndexFile(fileList) {
     return `<a href="./${name}.html">${name}</a><br />`;
   });
   const $ = cheerio.load(indexFile);
-  $("body").html(links);
+  $("body").html(`<div style="text-align: center;">${links.join("")}</div>`);
   const str = $.html();
   fs.writeFileSync(path.resolve(__dirname, "./dist/index.html"), str, {
     encoding: "utf-8",
