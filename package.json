@@ -1,0 +1,15 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:busys/interview.git",
+  "author": "ansike <984315765@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "markdown-it": "^12.3.0"
+  }
+}
