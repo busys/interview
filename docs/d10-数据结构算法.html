@@ -1,0 +1,28 @@
+<h3>1. 什么是复杂度分析 ？</h3>
+<p>数据结构和算法解决是为了 “计算速度更快,占用空间更少”
+复杂度描述的是算法执行时间(或占用空间)与数据规模的增长关系</p>
+<h3>2. 为什么要进行复杂度分析 ？</h3>
+<ol>
+<li>复杂度分析不依赖执行环境,成本低,易操作,指导性强</li>
+<li>能编写更优的代码,降低系统开发和维护成本</li>
+</ol>
+<h3>3. 如何进行复杂度分析 ？</h3>
+<h3>4. 常用的时间复杂度分析</h3>
+<h3>5. 时间复杂度分类</h3>
+<h3>6. 时间复杂度消耗时间排序</h3>
+<h3>7. 空间复杂度分析</h3>
+<h3>8. 如何掌握好复杂度分析方法 ？</h3>
+<h3>9. 判断一段字符串是否为回文？</h3>
+<p>&lt;!-- function isPalindrome(str){
+return str === str.split('').reverse().join('')
+} --&gt;</p>
+<p>&lt;!-- 时间复杂度为O(n),空间复杂度为O(1) --&gt;
+&lt;!-- function isPalindrome(str){
+const len = str.length;
+for(let i = 0; i &lt; str.length/2;i++){
+if(str[i] !== str[len-i-1]){
+return false;
+}
+}
+return true;
+} --&gt;</p>
