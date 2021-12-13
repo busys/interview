@@ -13,8 +13,6 @@ git add .
 
 git commit -m "chore"
 
-git push origin :gh-pages
-
-git push origin gh-pages
+git push origin gh-pages -f
 
 git checkout master
